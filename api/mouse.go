@@ -1,4 +1,4 @@
-package woagh
+package api
 
 import (
 	"fmt"
