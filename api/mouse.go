@@ -4,6 +4,11 @@ import (
 	"fmt"
 
 	"github.com/go-vgo/robotgo"
+	_ "github.com/go-vgo/robotgo/base"
+	_ "github.com/go-vgo/robotgo/key"
+	_ "github.com/go-vgo/robotgo/mouse"
+	_ "github.com/go-vgo/robotgo/screen"
+	_ "github.com/go-vgo/robotgo/window"
 	"github.com/syzhang42/oxhorse/interception"
 )
 
