@@ -39,7 +39,7 @@ func MouseMoveAndClick1(x, y int, t MOUSE_BUTTON, nums int) error {
 
 	mouseStroke[2].State = interception.INTERCEPTION_MOUSE_RIGHT_BUTTON_UP
 
-	_x, _y := 65535*width/x, 65535*height/y
+	_x, _y := 65535*x/width, 65535*y/height
 
 	mouseStroke[0].Flags = interception.INTERCEPTION_MOUSE_MOVE_ABSOLUTE
 

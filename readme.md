@@ -22,6 +22,8 @@
 #### 1.2、驱动加载
 ​      加载：  /你的主目录路径/vendor/github.com/syzhang42/oxhorse/interception/installer/install-interception.exe install
 ​      卸载：  /你的主目录路径/vendor/github.com/syzhang42/oxhorse/interception/installer/install-interception.exe uninstall
+
+check your C:\Windows\System32\drivers and look for mouse.sys and keyboard.sys
 #### 1.3、环境变量配置
 ​        /你的主目录路径/vendor/github.com/syzhang42/oxhorse/interception/lib/x64  添加到系统环境变量中
 ​        或者将其子文件拷贝到你的配置了系统环境变量的目录中
